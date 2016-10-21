@@ -1,6 +1,6 @@
 {
   "name": "redux-view",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A view wrapper for Redux and React-Router that makes it easy to map and transition between routes.",
   "main": "lib/ReduxView.js",
   "directories": {
