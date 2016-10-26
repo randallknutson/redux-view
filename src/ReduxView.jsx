@@ -1,7 +1,5 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { default as storeShape } from 'react-redux/lib/utils/storeShape';
-import { propTypes } from 'react-router';
 import isEqual from 'lodash/isEqual';
 
 export default class extends React.Component {
@@ -12,8 +10,8 @@ export default class extends React.Component {
   }
 
   static contextTypes = {
-    router: propTypes.routerContext,
-    store: storeShape
+    router: React.PropTypes.object,
+    store: React.PropTypes.object
   }
 
   componentWillMount = () => {
