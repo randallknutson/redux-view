@@ -30,7 +30,7 @@
   "peerDependencies": {
     "lodash": "4.x",
     "react-redux": "4.x",
-    "react-router": "^2.0.0 || ^3.0.0 || ^4.0.0"
+    "react-router": ">=2.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.16.0",
