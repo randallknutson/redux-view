@@ -28,9 +28,9 @@
   },
   "homepage": "https://github.com/randallknutson/redux-view#readme",
   "peerDependencies": {
-    "lodash": "4",
-    "react-redux": "4",
-    "react-router": "*"
+    "lodash": "4.x",
+    "react-redux": "4.x",
+    "react-router": "2.x || 3.x || 4.x"
   },
   "devDependencies": {
     "babel-cli": "^6.16.0",
