@@ -15,6 +15,8 @@ export default class extends Component {
     store: PropTypes.object
   }
 
+  component = <div />;
+
   initialize = () => {};
 
   terminate = () => {};
@@ -41,7 +43,7 @@ export default class extends Component {
       this.mapDispatchToProps,
       this.mergeProps,
       this.options
-    )(this.container);
+    )(this.component);
     return <Component { ...this.props }></Component>;
   }
 }
