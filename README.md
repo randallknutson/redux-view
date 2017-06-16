@@ -82,19 +82,21 @@ render() {
 ## Methods
 The following methods can be set on the ReduxView extended class.
 
-* [`initialize(store, props, router): null`] \(Function) - Will be called every time the View is entered.
+* [`initialize(store, props): null`] \(Function) - Will be called every time the View is entered.
   
-* [`terminate(store, props, router): null`] \(Function) - Will be called every time the View is exited.
+* [`terminate(store, props): null`] \(Function) - Will be called every time the View is exited.
   
 * [`container(props): component`] \(Function) - The elements that will be rendered.
   
 * [`mapStateToProps(state, ownProps): props`] \(Function) - Used in react-redux connect.
   
-* [`mapDispatchToProps(dispatch, ownProps, router): props`] \(Function) - Used in react-redux connect. Note the extra router parameter.
+* [`mapDispatchToProps(dispatch, ownProps): props`] \(Function) - Used in react-redux connect.
   
 * [`mergeProps(stateProps, dispatchProps, ownProps): props`] \(Function) - Used in react-redux connect.
   
 * [`options`] \(Object) - Used in react-redux connect.
+
+* [`connect`] \(Object) - Used to override the connect function from react-redux.
  
 ## Examples
 See [React Formio](https://github.com/formio/react-formio/tree/master/src) for examples of redux-views in action.
